@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="imagens/finance_shopping.png">
+<link rel="stylesheet" href="style.css">
+<title>Produto</title>
+</head>
+<body>
+	<h1>Criar novo produto</h1>
+	<form name="frmProduto" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="categoria" placeholder="Categoria" class="caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="quantidade" placeholder="Quantidade" class="caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="preco" placeholder="Preco" class="caixa2" ></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="botao1" onclick="validar()">
+		
+	</form>
+	<a href="index.html" class="voltar">Voltar</a>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
